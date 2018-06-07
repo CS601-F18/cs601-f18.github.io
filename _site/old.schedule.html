@@ -1,0 +1,327 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Distributed Software Development">
+  <meta name="author" content="Sami Rollins">
+
+  <title>Distributed Software Development</title>
+
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+  <!-- Custom styles for this template -->
+  <link href="/css/navbar.css" rel="stylesheet">
+
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
+
+    </head>
+
+    <body>
+
+
+      <!-- MAIN NAV -->
+<div class="container hidden-print">
+  <!-- Fixed navbar -->
+  <div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li ><a href="/">Home</a></li>
+          <li ><a href="/syllabus.html">Syllabus</a></li>
+          <li  class="active"><a href="/schedule.html">Schedule</a></li>
+          <li ><a href="/assignments.html"> Assignments </a></li>
+<!--          <li ><a href="/learningoutcomes.html">Learning Outcomes</a></li> -->
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="https://usfca.instructure.com/courses/1576851">Canvas<span class="sr-only">(current)</span></a></li>
+          <li><a href="https://piazza.com/usfca/spring2018/cs682/home">Piazza</a></li>
+        </ul>        
+      </div>      
+    </div>
+  </div>
+</div>
+<!-- ./MAIN NAV -->
+
+
+      <div class="container">
+
+	<h1 class="page-header">Course Schedule<br/>Spring 2018</h1>
+	<p><i>Note: this schedule is subject to change.</i></p>
+
+	<table class="table table-condensed" 
+	style="text-align:left;">
+	<tbody>
+		<tr>
+			<td width="15%"><strong>Week</strong></td>
+			<td><strong>Topics</strong></td>
+			<td><strong>Code/Resources</strong></td>
+			<td><strong>Assignments Due</strong></td>
+		</tr>
+		<tr>
+			<td>1<br/>1/23-1/25</td>
+			<td>
+				<a href="https://docs.google.com/presentation/d/1GNT56_Bbky6aOYMr5MHGW0v7IIcHYcM0bTs7m5SorMc/edit?usp=sharing">Intro to Distributed Systems</a><br/>
+				<a href="https://docs.google.com/presentation/d/1yqsf3my27ZAxJlXAohba8ufxGg0YAXrEwYHZCkGJt2E/edit#slide=id.p5">Web Services</a><br/>
+			</td>
+			<td>
+				<a href="http://highscalability.com/">High Scalability Blog</a><br/>
+				<a href="http://book.mixu.net/distsys/">Distributed Systems: for fun and profit</a><br/>
+				<a href="https://martinfowler.com/articles/serverless.html">Serverless Architectures</a>
+			</td>
+			<td>
+				Due Thursday 1/25 - 9:30AM
+				<ul>          
+					<li>Complete the <a href="https://goo.gl/forms/cMYZnJ2HgeXQFZRF2">Homework 0 Survey</a></li>
+					<li>Watch <a href="https://www.infoq.com/presentations/netflix-chaos-microservices">Mastering Chaos - A Netflix Guide to Microservices</a> and submit a <a href="https://goo.gl/forms/sXhvSP3vfQK1uqn02">Review Form</a></li>
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td>2<br/>1/30-2/1</td>
+			<td>
+				<a href="https://github.com/CS682-S17/notes/blob/master/networking.md">Computer Networking</a><br/>
+			</td>
+			<td>
+				<a href="https://http2.github.io/">HTTP/2 Standard/FAQ</a><br/>
+				<a href="https://http2.akamai.com/">HTTP/2 Akamai Demo</a><br/>
+				<a href="http://queue.acm.org/detail.cfm?id=3022184">BBR Congestion Control</a><br/>
+				<a href="http://queue.acm.org/detail.cfm?id=2610533">Don't Settle for Eventual Consistency</a><br/>      
+			</td>
+			<td>
+				Due Wednesday 2/1 - 5:00pm
+				<ul>
+					<li><a href="https://github.com/CS682-S17/assignments/wiki/Lab-1">Lab 1 - Using the Slack API</a></li>
+				</ul>
+				Due Thursday 2/2 - 2:00pm
+				<ul>
+					<li>Read <a href="http://queue.acm.org/detail.cfm?id=2610533">Don't Settle for Eventual Consistency</a> and submit a <a href="https://goo.gl/forms/V2wqhLzXM0WRfRmz2">Review Form</a></li>
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td>3<br/>2/6-2/8</td>
+			<td>
+				<a href="https://docs.google.com/document/d/1r4xeu2i2y0WgnNsX9IOpao5R0qxoJ5d4t95ybUcPnJs/edit">Discussion Questions: Eventual Consistency</a><br/> 
+				<a href="https://github.com/CS682-S17/assignments/wiki/Project-1">Project 1</a> Design Discussion<br/>     
+			</td>
+			<td>
+			</td>
+			<td>
+				Due Wednesday 2/8 - 5:00pm
+				<ul>
+					<li><a href="https://github.com/CS682-S17/assignments/wiki/Lab-2">Lab 2 - HTTP Server</a></li>
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td>4<br/>2/14-2/16</td>
+			<td>
+				<a href="https://github.com/CS682-S17/assignments/wiki/Project-1">Project 1</a> Design Discussion, Part 2<br/>     
+				<a href="https://docs.google.com/presentation/d/16VjES2Wau86DT6RxLhegAL4NDbuUQFDVXRcswtLwu20/edit?usp=sharing">Time and Global States</a><br/>
+				Facebook Paper Discussion
+			</td>
+			<td>
+			</td>
+			<td>
+				Due Thursday 2/16 - 2:00pm
+				<ul>
+					<li>Read <a href="http://sigops.org/sosp/sosp15/current/2015-Monterey/printable/240-lu.pdf">Existential Consistency: Measuring and Understanding Consistency at Facebook</a> and submit a <a href="https://goo.gl/forms/DSpEKyPeRzTN5xJv1">Review Form</a></li>
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td>5<br/>2/21-2/23</td>
+			<td>				
+				<a href="https://docs.google.com/document/d/1PwL5vuT1P2_kFyWKwDMARZd4M6iNiPIzPcV7vzNJCk8/edit?usp=sharing">Dynamo Discussion Questions</a><br/>
+				<a href="https://docs.google.com/presentation/d/1WCHOTRYZoOgM8O7BsUTQJu2Rntug4h2pbC0K6xWq_8A/edit?usp=sharing">Coordination and Agreement</a><br/>
+			</td>			
+			<td>
+			</td>
+			<td>
+				Due Tuesday 2/21 - 2:00pm
+				<ul>
+					<li>Read <a href="http://s3.amazonaws.com/AllThingsDistributed/sosp/amazon-dynamo-sosp2007.pdf">Dynamo: Amazon’s Highly Available Key-value Store </a> and submit a <a href="https://goo.gl/forms/faNV9eIWszCzvdLU2">Review Form</a></li>
+				</ul>				
+			</td>
+		</tr>
+		<tr>
+			<td>6<br/>2/28-3/2</td>
+			<td>
+				<a href="https://docs.google.com/presentation/d/1WCHOTRYZoOgM8O7BsUTQJu2Rntug4h2pbC0K6xWq_8A/edit?usp=sharing">Coordination and Agreement</a><br/>
+				<a href="https://docs.google.com/presentation/d/1Dt7UEcq0_sz484KQX6j_1lJnQiN8CqFPmvj344FtK4Y/edit?usp=sharing">Replication</a><br/>
+			</td>
+			<td>
+			</td>
+			<td>
+				Due Friday 3/3 - 5:00pm 
+				<ul>
+					<a href="https://github.com/CS682-S17/assignments/wiki/Project-1">Project 1</a><br/>
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td>7<br/>3/7-3/9</td>
+			<td><strong><span class="text-primary">Exam 1 - Thursday 3/9</strong></td>
+			<td>
+				<a href="https://github.com/CS682-S17/notes/blob/master/exam1sample.pdf">Sample Exam</a>
+			</td>
+			<td></td>
+		</tr>
+		<tr><td colspan="3"><font color=red>Spring break - woohoo!</font></td></tr>
+		<tr>
+			<td>8<br/>3/21-3/23</td>
+			<td>
+				<a href="https://docs.google.com/presentation/d/1KVP4aAsvVulr5nYF-iMdGgSO-xEfyacR7GD5D1vAg9k/edit">Transactions</a><br/>
+				3/23 - Project 2 Check-in				
+			</td>
+			<td>
+			</td>
+			<td>
+			</td>
+		</tr>
+		<tr>
+			<td>9<br/>3/28-3/30</td>
+			<td>
+				<a href="https://docs.google.com/presentation/d/1Kh1mm8H8f3wQDv7OTwYJltN9tkDQalTOiKss8YN7QYc/edit?usp=sharing">Paxos</a><br/>
+				<a href="https://docs.google.com/presentation/d/1CuRW6TByyEOv36BVxirjTJ0x5q7uJExHLkFSnDJfeJw/edit?usp=sharing">Paxos Made Live</a><br/>
+			</td>
+			<td>
+				<a href="https://www.youtube.com/watch?v=JEpsBg0AO6o">Paxos Video</a><br/>
+			</td>
+			<td>
+				Due Tuesday 3/28 - 2:00pm
+				<ul>
+					<li>Read <a href="https://static.googleusercontent.com/media/research.google.com/en//archive/paxos_made_live.pdf">Paxos Made Live</a> and submit a <a href="https://goo.gl/forms/OKlzNbJsmzNVi99M2">Review Form</a></li>
+				</ul>				
+			</td>
+		</tr>
+		<tr>
+			<td>10<br/>4/4-4/6</td>
+			<td>
+				<a href="https://docs.google.com/presentation/d/123XLuHD-X4Kqja6KtKZs6mClhNyNoc8W-ZZoB-4RPos/edit?usp=sharing">Spanner</a><br/>
+				<a href="https://docs.google.com/document/d/1bjRXdOwwHt7Y2hin58lgvVe8gxE2NzFDbeZpsUA8tQU/edit">Spanner Discussion Questions</a><br/>
+			</td>
+			<td>
+			</td>
+			<td>
+				Due Tuesday 4/4 - 2:00pm
+				<ul>
+					<li>Read <a href="https://static.googleusercontent.com/media/research.google.com/en//archive/spanner-osdi2012.pdf">Spanner: Google's Globally-Distributed Database</a> and submit a <a href="https://goo.gl/forms/oAndE0ZDT9BhV8gS2">Review Form</a></li>
+				</ul>								
+			</td>
+		</tr>
+		<tr>
+			<td>11<br/>4/11-4/13</td>
+			<td>
+			  <a href="https://docs.google.com/document/d/1w39eUtF0w4BZKfSuEl0KdV9hqz-RC6KFI0sOmh0hSgQ/edit?usp=sharing">Kraken Discussion Questions</a><br/>
+			</td>
+			<td>
+			</td>
+			<td>
+				Due Tuesday 4/11 - 2:00pm
+				<ul>
+					<li>Read <a href="https://research.fb.com/wp-content/uploads/2016/11/kraken_leveraging_live_traf_c_tests_to_identify_and_resolve_resource_utilization_bottlenecks_in_large_scale_web_services.pdf?">Kraken: Leveraging Live Traffic Tests to Identify and Resolve Resource Utilization Bottlenecks in Large Scale Web Services</a> and submit a <a href="https://goo.gl/forms/h7e0MmHqxhHBmGZn1">Review Form</a></li>
+				</ul>								
+			</td>
+		</tr>
+		<tr>
+			<td>12<br/>4/18-4/20</td>
+			<td>
+			</td>
+			<td>
+			</td>
+			<td>
+				<strong>Due Monday 4/17 - 5:00pm</strong> 
+				<ul>
+					<a href="https://github.com/CS682-S17/assignments/wiki/Project-2">Project 2</a><br/>
+				</ul>
+				<strong>Due Tuesday 4/18 - 2:40pm</strong> 
+				<ul>
+					<li>Read <a href="http://dl.acm.org/citation.cfm?id=2523633">Apache Hadoop YARN: Yet Another Resource Negotiator</a></li>
+				</ul>
+				<strong>Due Thursday 4/20 - 2:40pm</strong> 
+				<ul>
+					<a href="https://github.com/CS682-S17/assignments/wiki/Project-3">Project 3 - Proposal</a><br/>
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td>13<br/>4/25-4/27</td>
+			<td>
+			  <a href="https://docs.google.com/presentation/d/1JAfsnsQtRDaJM4mL0od6fku952-GqaHe1mpW41h51Os/edit?usp=sharing">YARN, and more</a><br/>
+			</td>
+			<td>
+			</td>
+			<td>
+				<strong>Due Thursday 4/27 - 2:40pm</strong> 
+				<ul>
+					<a href="https://github.com/CS682-S17/assignments/wiki/Project-3">Project 3 - Checkpoint 1</a><br/>
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td>14<br/>5/2-5/4</td>
+			<td>
+				<strong><span class="text-primary">Exam 2 - Thursday 5/4</span></strong><br/>
+				<a href="https://docs.google.com/presentation/d/1_Y6ZexqA5pgYpvJlQs6ue5aMxHiLId_sKXPM4ThTEek/edit?usp=sharing">Exam Review Notes</a><br/>
+
+			</td>
+			<td>
+				<a href="https://github.com/CS682-S17/notes/blob/master/exam2sample.pdf">Sample Exam</a>
+			</td>
+			<td>
+			</td>
+		</tr>
+		<tr>
+			<td>15<br/>5/9-5/11</td>
+			<td>
+			</td>
+			<td>
+			</td>
+			<td>
+				<strong>Due Thursday 5/11 - 2:40pm</strong> 
+				<ul>
+					<a href="https://github.com/CS682-S17/assignments/wiki/Project-3">Project 3 - Checkpoint 2</a><br/>
+				</ul>				
+			</td>
+		</tr>
+		<tr>
+			<td>Finals Week<br/>5/13-5/17 (5pm)</td>
+			<td colspan="3"><strong><span class="text-primary">Project 3 Demonstrations</span></strong></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+
+
+      <script src="http://localhost:4000/js/jquery.min.js"></script>
+      <script src="http://localhost:4000/js/bootstrap.min.js"></script>
+
+
+    </body>
+    </html>

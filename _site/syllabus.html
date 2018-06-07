@@ -1,0 +1,239 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Distributed Software Development">
+  <meta name="author" content="Sami Rollins">
+
+  <title>Distributed Software Development</title>
+
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+  <!-- Custom styles for this template -->
+  <link href="/css/navbar.css" rel="stylesheet">
+
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
+
+    </head>
+
+    <body>
+
+
+      <!-- MAIN NAV -->
+<div class="container hidden-print">
+  <!-- Fixed navbar -->
+  <div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li ><a href="/">Home</a></li>
+          <li  class="active"><a href="/syllabus.html">Syllabus</a></li>
+          <li ><a href="/schedule.html">Schedule</a></li>
+          <li ><a href="/assignments.html"> Assignments </a></li>
+<!--          <li ><a href="/learningoutcomes.html">Learning Outcomes</a></li> -->
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="https://usfca.instructure.com/courses/1576851">Canvas<span class="sr-only">(current)</span></a></li>
+          <li><a href="https://piazza.com/usfca/spring2018/cs682/home">Piazza</a></li>
+        </ul>        
+      </div>      
+    </div>
+  </div>
+</div>
+<!-- ./MAIN NAV -->
+
+
+      <div class="container">
+
+  <h1 class="page-header">Distributed Software Development<br/>Spring 2018</h1>
+  
+  <h2>Course Information</h2>
+  <p><strong>Class Meets:</strong><br/>
+   Section 01 - Tuesday and Thursday 2:40-4:25pm in LS G12 <br/>
+   Section 02 - Tuesday and Thursday 9:55-11:40am in LS G12
+ </p>
+ <p><strong>Web Page:</strong> <a href="https://cs682-s18.github.io/">https://cs682-s18.github.io/</a></p>
+
+ <h2>Instructor Information</h2>
+ <p><strong>Name:</strong> Sami Rollins</p>
+ <p><strong>Email:</strong> srollins@cs.usfca.edu - Piazza preferred</p>
+ <p><strong>Office:</strong> Harney Science Center, Room 404</p>
+ <p><strong>Hours:</strong> Tuesday 1-2pm, Wednesday 11am-noon, Thursday 4:30-5:30pm and by appointment</p>
+
+ <h2>Course Prerequisites</h2>
+ <p>CS 631 with a grade of B or better.</p>
+
+ <h2>Course Materials</h2>
+ <p>There is no required textbook for this course, however you will be expected to read and understand research papers and online resources. The following texts are also recommended: 
+    <ul>
+      <li>George Coulouris, Jean Dollimore and Tim Kindberg, <a href="https://www.amazon.com/Distributed-Systems-Concepts-Design-5th/dp/0132143011">Distributed Systems Concepts and Design Fifth Edition</a>, Addison Wesley/Pearson Education, 2011.</li>
+      <li><a href="http://book.mixu.net/distsys/">Distributed Systems: for fun and profit</a></li>
+      <li><a href="http://0-proquest.safaribooksonline.com.ignacio.usfca.edu/book/software-engineering-and-development/9781491903063">Designing Data-Intensive Applications (requires USF login)</a></li>      
+    </ul>
+ </p>
+
+ <p>
+   Links to online resources, including notes, code samples, and external resources, will be posted on the <a href="/schedule.html">Schedule</a> page. Make sure to check the schedule early and often.
+ </p>	
+
+ <h2>Course Announcements</h2> 
+
+ <p>
+   Announcements will be posted on <a href="https://piazza.com/usfca/spring2018/cs682/home">Piazza</a>. Join here: <a href="https://piazza.com/usfca/spring2018/cs682">https://piazza.com/usfca/spring2018/cs682</a> Questions about assignments and projects should be posted on Piazza. Students are responsible for staying current on all course announcements.
+ </p>
+
+ <h2>Learning Outcomes</h2>     
+ <p>
+   At the end of this course, successful students will be able to do all of the following:
+ </p>
+ 
+ <ul>
+  <li>Networking:<br/>
+    <ul>
+      <li>Explain the layers of the network protocol stack</li>
+      <li>Implement client/server applications using raw sockets</li>
+      <li>Implement networking protocols</li>
+    </ul>
+  </li>
+  <li>Web Services:<br/>
+    <ul>
+      <li>Explain technologies and abstractions used to build web services, including the Internet, HTTP, REST, client/server, JSON</li>
+      <li>Evaluate and critique web service APIs</li>
+      <li>Use APIs to access existing web services</li>
+      <li>Design and implement web services</li>
+    </ul>
+  </li>
+  <li>Distributed Algorithms:<br/>
+    <ul>
+      <li>Explain the complexities and challenges faced in building distributed systems, including time synchronization, coordination, and replication</li>
+      <li>Evaluate the correctness and performance tradeoffs of various distributed algorithms</li>
+      <li>Implement distributed algorithms to support data replication</li>
+    </ul>
+  </li>
+  <li>State-of-the-art Research:<br/>
+    <ul>
+      <li>Summarize and critique state-of-the art research papers</li>
+    </ul>
+  </li>
+
+</ul>
+
+
+<h2>Course Requirements</h2> 
+
+<h4>Projects</h4>
+<p>You will have six projects. In most cases, the projects will build on your other projects. A demonstration will be required for most projects. A project may only be submitted late in the case of an emergency verified by the dean's office.</p>
+
+<h4>Exams</h4>
+<p>You will have two exams. You are responsible for being present on the day of the exam.  Make-up exams will only be given in the event of an emergency verified by the dean's office.</p>
+
+<h4>Participation, Paper Reviews, and Quizzes</h4>
+<p>You are expected to attend class, participate in class discussion, and participate in online discussion on Piazza. You will also be required to submit reviews for research papers assigned throughout the semester. <i>Pop quizzes may be administered any time. If you are not in class on the day of the quiz you will be assigned a 0 for the quiz.</i></p>
+
+<h4>Code Review</h4>
+<p>Any student may be asked to come in for code review for any assignment. A student who does not meet with the instructor for a code review in a timely manner will be given a <strong>0</strong> on the assignment in question. A student who is unable to explain his/her code and answer the instructor's questions about his/her code as expected may receive a deduction of <i>up to</i> <strong>100%</strong>, resulting in a 0 on the assignment.</p>
+
+
+<h2>Grade Breakdown</h2>
+
+<p>The final grade for this course will be calculated as follows:</p>
+
+<p><strong>Exam 1:</strong> 20% <strong>Exam 2:</strong> 20%</p>
+<p><strong>Projects:</strong> 50%</p>
+<p><strong>Participation, Paper Reviews, and Quizzes:</strong> 10%</p>
+
+<p>Please note that this is a tentative breakdown and subject to change.</p>
+
+<h2>Letter Grades</h2> 
+<p>Letter grades will be assigned according to the following scale:</p>
+
+
+<table class="table table-condensed" style="text-align:left;">
+ <tr>
+  <td>A+ ≥97%</td>
+  <td>B+ ≥87%</td>
+  <td>C+ ≥77%</td>
+</tr>
+<tr>
+</tr>
+<td>A ≥94%</td>
+<td>B ≥84%</td>
+<td>C ≥74%</td>
+</tr>
+<tr>
+  <td>A- ≥90%</td>
+  <td>B- ≥80%</td>
+  <td>C- ≥70%</td>
+</tr>
+<tr>
+  <td>F < 70%</td>
+</tr>
+
+</table>
+
+For example, you will receive a C letter grade if your grade is greater than or equal to 74% and less than 77%. Please note this scale is subject to change. See the <a href="https://www.usfca.edu/catalog/regulations/gradstudent">Graduate Student Regulations</a> for more information about letter grades and how they are translated into GPA.  
+
+<h2>Attendance Policy</h2>
+<p>Students are expected to be on-time to all classes. Attendance is mandatory for all exams, quizzes, labs, and exercises. Exam dates will be posted on the course <a href="/schedule.html">schedule</a>.</p>
+
+<h2>Late Policy</h2>
+<p>All deadlines are firm.</p>
+<p>Exceptions to this policy are made only in the case of <i>verifiable</i> medical or family emergency. Extensions and makeup exams must be arranged <i>PRIOR</i> to the original deadline unless in case of extreme emergency (such as an emergency room visit).</p>
+
+<h2>Academic Honesty</h2>
+
+<p>All students are expected to know and adhere to the University of San Francisco's Academic Honor Code. Go to <a href="https://myusf.usfca.edu/academic-integrity/honor-code">https://myusf.usfca.edu/academic-integrity/honor-code</a> for details.</p>
+<p>You must never represent another person’s work as your own.</p>
+<p>Copying answers or code from other students or sources during a quiz, exam, or for a project or homework assignment is a violation of the university’s honor code.This includes copying code or other material from the web, and having anyone other than yourself complete your assignments. It also includes working too closely with another student. Collaboration or discussion that results in the same or very similar code indicates that you have not placed enough independent work into your solution and is a violation of the honor code.</p>
+<p>Flagrant or repeat violations of the honor code will result in an F in the course, a report to the University Academic Integrity Committee, and a report to the Dean.</p>
+<p>At the discretion of the instructor, a less severe penalty may be imposed for minor or first offenses. This is at the sole discretion of the instructor and any violation may result in an F in the course.</p>
+<p>Examples of honor code violations include but are not limited to:</p>
+<ul>
+ <li>Giving your code to another student.</li>
+ <li>Submitting code written by anyone other than yourself as your own.</li>
+ <li>Copying text from the web.</li>
+ <li>Discussing implementation details of a solution with another student.</li>
+ <li>Discussing code-specific details of a solution with another student.</li>    	    
+</ul>
+
+<h2>Peer Tutoring Services</h2>
+
+<p>The <a href="http://www.usfca.edu/lwc">Learning and Writing Center (LWC)</a> also provides assistance to students in their academic pursuits. Services are free to students and include individual and group tutoring appointments and consultations to develop specific study strategies and approaches. Please visit <a href="http://www.usfca.edu/lwc">http://www.usfca.edu/lwc</a> for more information.</p>    
+
+<h2>Student Disability Services</h2>
+<p>If you are a student with a disability or disabling condition, or if you think you may have a disability, please contact <a href="http://www.usfca.edu/sds">Student Disability Services (SDS)</a> within the first week of class to speak with a disability specialist. If you are determined eligible for reasonable accommodations, your disability specialist will send your accommodation letter to the instructor detailing your needs for the course. For more information, please visit <a href="http://www.usfca.edu/sds">http://www.usfca.edu/sds</a> or call (415) 422-2613.</p>
+</div>
+
+
+
+
+      <script src="http://localhost:4000/js/jquery.min.js"></script>
+      <script src="http://localhost:4000/js/bootstrap.min.js"></script>
+
+
+    </body>
+    </html>
